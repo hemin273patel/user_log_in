@@ -1,0 +1,29 @@
+body{
+  background-color: #999999;
+  font-size: 25px;
+}
+
+.detail1{
+  color: #333942;
+  margin-left: 15px;
+}
+
+.input1{
+  padding: 5px;
+  margin-bottom: 8px;
+}
+
+.submit1{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.selector{
+  padding: 5px;
+  font-size: 15px;
+}
+
+.submit1:hover{
+  border-radius: 5px;
+  transition: all .8s;
+}

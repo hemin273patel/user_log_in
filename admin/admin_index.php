@@ -9,31 +9,14 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
 <title>Welcome to the admin panel login</title>
 </head>
 <body>
-<?php
-      echo $_SESSION['user_name'];
-      echo "\nWelcome to our page.";
+   <h2><?php echo $_SESSION['user_name'];?></h2>
+   <a href="admin_createuser.php">Create User</a>
+   <a href="phpscripts/caller.php?caller_id=logout">Sign Out</a>
 
-
-      date_default_timezone_set('Canada/Eastern');
-      $sethours = date("H");
-
-      if ($sethours < "12") {
-          echo "Good morning";
-      } else
-
-      if ($sethours >= "12" && $sethours < "18") {
-          echo "Good afternoon";
-      } else
-
-      if ($sethours >= "18" && $sethours < "24") {
-          echo "Good Night";
-      }
-
-
- ?>
 
 </body>
 </html>
