@@ -1,0 +1,10 @@
+Name : Patel Hemin 
+
+
+Link to the tutorial : 
+
+https://stackoverflow.com/questions/6101956/generating-a-random-password-in-php
+
+https://www.youtube.com/watch?v=e9nH-nsj7mk&t=510s   -   Time code- 10(min):20(sec) 
+
+sending the mail is based on the last semester's file.
