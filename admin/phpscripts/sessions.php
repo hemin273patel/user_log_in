@@ -1,5 +1,5 @@
-<?php 
-   
+<?php
+
 
    session_start ();
 
@@ -7,6 +7,13 @@
    	if(!isset($_SESSION['user_id'])){
       redirect_to("admin_login.php");
    	}
+   }
+
+
+   function logged_out(){
+     session_destroy();
+     redirect_to("../admin_login.php");
+
    }
 
 

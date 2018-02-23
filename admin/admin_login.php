@@ -20,20 +20,21 @@
 <html>
 <head>
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/main.css" media="screen">
 <title>Welcome to the admin panel login</title>
 </head>
 <body>
   <?php if(!empty($message)){echo $message;}?>
 
   <form action="admin_login.php" method="post">
-    <label>Username:</label>
-    <input type="text" name="username" value="">
+    <label class="detail1">Username:</label>
+    <input class="input1" type="text" name="username" value="">
 
-    <label>Password:</label>
-    <input type="password" name="password" value="">
+    <labe class="detail1">Password:</label>
+    <input class="input1" type="password" name="password" value="">
 
     <br>
-    <input type="submit" name="submit" value="Show me the money">
+    <input class="submit1" type="submit" name="submit" value="SUBMIT">
   </form>
 
 </body>
